@@ -6,42 +6,7 @@
     <meta name="author" content="Grace njambi">
     <meta name="description" content="This is the rest of the title that you are not incapable of seing in the title" />
     <title>Document</title>
-    <style>
-        body {
-            background-color: rgb(red, green, blue);
-            color: black;
-        }
-        .inputt {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-       
-        button {
-            background-color: rgb(224, 221, 221);
-            color: black;
-            border: none;
-            padding: 8px; 
-            border-radius: 15px;
-            border-color: rgb(224, 221, 221);
-            box-shadow: none;
-            text-align: center;
-            text-decoration: dotted;
-            cursor: pointer;
-        }
-        .parent-container {
-            display: flex;
-            
-            align-items: center;
-            height: 10vh;
-            gap: 15px;
-
-        }
-        
-
-        
-    </style>
+    <link rel="stylesheet" href="style/style.css">
     
     <link rel="icon" type="image/png" sizes="32*32" href="fanart.jpg"/>
 </head>
@@ -50,7 +15,7 @@
  
     <h2>Youtube</h2>
     <input type="text" placeholder="search" class="inputt"/><br>
-    <button>Search</button>
+    <button>🔍</button>
     <button>+create</button>
     <br>
     <div class="parent-container">
@@ -65,7 +30,8 @@
 
     <br>
     <p>This is a <strong>youtube</strong> video</p>
-    <figure class="picture">
+    <div class="videos">
+    <figure>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aP2uJf4UtpA?si=BRPZXawN7nHLTzqB"
         target ="_top"
         title="YouTube video player" frameborder="0"
@@ -73,6 +39,14 @@
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <figcaption>Ranking death row meals from the best to the worst.</figcaption>
     </figure>
+    <figure>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/NAMuWsVNg9Q?si=nIAcKngxLrEQyuwl"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>Taskmaster Season 21, Episode - "Maybe someone else wrote Veep?'</figcaption>
+    </figure>
+    </div>
     </main>
         <footer>
             <p>Grace Njambi &copy; &hearts; &spades;</p>

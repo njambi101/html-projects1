@@ -1,0 +1,44 @@
+ body {
+     background-color: rgb(red, green, blue);
+     color: black;
+ }
+input{
+    border-style:groove;
+    border-radius: 15px;
+    padding: 5px;
+    }
+ .inputt {
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 4vh;
+     width: 90vh;
+     
+ }
+
+ button {
+     background-color: rgb(224, 221, 221);
+     color: black;
+     border: none;
+     padding: 10px;
+     border-radius: 15px;
+     border-color: rgb(224, 221, 221);
+     box-shadow: none;
+     text-align: center;
+     text-decoration: dotted;
+     cursor: pointer;
+ }
+
+ .parent-container {
+     display: flex;
+     align-items: center;
+     height: 10vh;
+     gap: 15px;
+
+ }
+ figcaption {
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+ }
